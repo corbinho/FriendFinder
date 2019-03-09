@@ -1,7 +1,7 @@
 var express = require("express");
 var app = express();
 var path = require('path');
-var friendsList = require("/Users/corbinfelsheim/FriendFinder/app/data/friends")
+var friendsList = require("./app/data/friends")
 
 var PORT = process.env.PORT || 8080;
 
